@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0b81da78b44c7562ad1243cde21bd2ae {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_0b81da78b44c7562ad1243cde21bd2ae" ></div>
+        
+</body>
+<script>    
+    
+            var map_0b81da78b44c7562ad1243cde21bd2ae = L.map(
+                "map_0b81da78b44c7562ad1243cde21bd2ae",
+                {
+                    center: [59.9168, 10.7128],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 17,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ada31fc6df6b05796d148cc93bf57d40 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0b81da78b44c7562ad1243cde21bd2ae);
+        
+    
+            var feature_group_92b3237d0c8a7bcf3d6a8be38361bb75 = L.featureGroup(
+                {}
+            ).addTo(map_0b81da78b44c7562ad1243cde21bd2ae);
+        
+    
+            var marker_ee093d930b31683a0c344a48ad5ff500 = L.marker(
+                [59.91469432548203, 10.71931459152586],
+                {}
+            ).addTo(feature_group_92b3237d0c8a7bcf3d6a8be38361bb75);
+        
+    
+            var div_icon_065065f82b152bdb2966fbcac8f80d34 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-family: courier new; color: blue\"\u003eSumo Restaurant\u003c/div\u003e"});
+            marker_ee093d930b31683a0c344a48ad5ff500.setIcon(div_icon_065065f82b152bdb2966fbcac8f80d34);
+        
+    
+        var popup_a9b73a342ca232898bb0e2745a071ed8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc94f6581a33b48c4e3aacb3d9fff54d = $(`<div id="html_cc94f6581a33b48c4e3aacb3d9fff54d" style="width: 100.0%; height: 100.0%;">Sumo Restaurant Henrik Ibsens gate 90</div>`)[0];
+            popup_a9b73a342ca232898bb0e2745a071ed8.setContent(html_cc94f6581a33b48c4e3aacb3d9fff54d);
+        
+
+        marker_ee093d930b31683a0c344a48ad5ff500.bindPopup(popup_a9b73a342ca232898bb0e2745a071ed8)
+        ;
+
+        
+    
+    
+            var marker_0bb409cbbcf7cb3a3ea3ffd99127e8ab = L.marker(
+                [59.91527248185749, 10.71710445123165],
+                {}
+            ).addTo(feature_group_92b3237d0c8a7bcf3d6a8be38361bb75);
+        
+    
+            var div_icon_3ad1393099f9c955e0abf6513746b9e7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-family: courier new; color: blue\"\u003eChampagneria\u003c/div\u003e"});
+            marker_0bb409cbbcf7cb3a3ea3ffd99127e8ab.setIcon(div_icon_3ad1393099f9c955e0abf6513746b9e7);
+        
+    
+        var popup_e3530ce28437e037e9a5ad0f1eeb3423 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f37e5e6519c20f127a9b19b25b1d2a3 = $(`<div id="html_5f37e5e6519c20f127a9b19b25b1d2a3" style="width: 100.0%; height: 100.0%;">Champagneria Frognerveien 2</div>`)[0];
+            popup_e3530ce28437e037e9a5ad0f1eeb3423.setContent(html_5f37e5e6519c20f127a9b19b25b1d2a3);
+        
+
+        marker_0bb409cbbcf7cb3a3ea3ffd99127e8ab.bindPopup(popup_e3530ce28437e037e9a5ad0f1eeb3423)
+        ;
+
+        
+    
+    
+            var marker_dfe59b712d31c806a9c64eac1713756f = L.marker(
+                [59.91598776839145, 10.716144220416322],
+                {}
+            ).addTo(feature_group_92b3237d0c8a7bcf3d6a8be38361bb75);
+        
+    
+            var div_icon_412f76395af743e447d677507740d6a1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-family: courier new; color: blue\"\u003eFru Burum\u003c/div\u003e"});
+            marker_dfe59b712d31c806a9c64eac1713756f.setIcon(div_icon_412f76395af743e447d677507740d6a1);
+        
+    
+        var popup_d6843faa7be3d86bbaf8bc0fe4a7e7da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45976bf15849531acea91ec86d4e699a = $(`<div id="html_45976bf15849531acea91ec86d4e699a" style="width: 100.0%; height: 100.0%;">Fru Burum Skovveien 3</div>`)[0];
+            popup_d6843faa7be3d86bbaf8bc0fe4a7e7da.setContent(html_45976bf15849531acea91ec86d4e699a);
+        
+
+        marker_dfe59b712d31c806a9c64eac1713756f.bindPopup(popup_d6843faa7be3d86bbaf8bc0fe4a7e7da)
+        ;
+
+        
+    
+    
+            var marker_d5e5eb01b767630e8678a999466a38f4 = L.marker(
+                [59.9166450643085, 10.713408421737306],
+                {}
+            ).addTo(feature_group_92b3237d0c8a7bcf3d6a8be38361bb75);
+        
+    
+            var div_icon_64213ea213e69bec5196d1cadf0b05cf = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-family: courier new; color: blue\"\u003eLille Andys Pub\u003c/div\u003e"});
+            marker_d5e5eb01b767630e8678a999466a38f4.setIcon(div_icon_64213ea213e69bec5196d1cadf0b05cf);
+        
+    
+        var popup_37fdf1870b49158064b7cbd928443150 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c92b61166413df21154abf1998f9fc6 = $(`<div id="html_0c92b61166413df21154abf1998f9fc6" style="width: 100.0%; height: 100.0%;">Lille Andys Pub Frognerveien 12B</div>`)[0];
+            popup_37fdf1870b49158064b7cbd928443150.setContent(html_0c92b61166413df21154abf1998f9fc6);
+        
+
+        marker_d5e5eb01b767630e8678a999466a38f4.bindPopup(popup_37fdf1870b49158064b7cbd928443150)
+        ;
+
+        
+    
+    
+            var marker_5d9553b789a009ec4d29a42f798974b2 = L.marker(
+                [59.917972680478975, 10.71835422545415],
+                {}
+            ).addTo(feature_group_92b3237d0c8a7bcf3d6a8be38361bb75);
+        
+    
+            var div_icon_50ea5b5cd3ec6406fbc9e5b923ff603c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-family: courier new; color: blue\"\u003eVictor\u0027s Vinbar\u003c/div\u003e"});
+            marker_5d9553b789a009ec4d29a42f798974b2.setIcon(div_icon_50ea5b5cd3ec6406fbc9e5b923ff603c);
+        
+    
+        var popup_29fb65bf0951b835eb446611bdc8c80a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_966839b0757239265cf92dcbd817917c = $(`<div id="html_966839b0757239265cf92dcbd817917c" style="width: 100.0%; height: 100.0%;">Victor's Vinbar Skovveien 15</div>`)[0];
+            popup_29fb65bf0951b835eb446611bdc8c80a.setContent(html_966839b0757239265cf92dcbd817917c);
+        
+
+        marker_5d9553b789a009ec4d29a42f798974b2.bindPopup(popup_29fb65bf0951b835eb446611bdc8c80a)
+        ;
+
+        
+    
+    
+            var marker_2311a96312ddeda0070f7622d24f1c5a = L.marker(
+                [59.918622142469445, 10.710102890982766],
+                {}
+            ).addTo(feature_group_92b3237d0c8a7bcf3d6a8be38361bb75);
+        
+    
+            var div_icon_678da0b121477d2b7ff7f70eaa47f3ec = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-family: courier new; color: blue\"\u003eFrogner Kino\u003c/div\u003e"});
+            marker_2311a96312ddeda0070f7622d24f1c5a.setIcon(div_icon_678da0b121477d2b7ff7f70eaa47f3ec);
+        
+    
+        var popup_d0b9bce74356ae81e44002e8a9b21065 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df409e7b2da126904ab0de88f8540ad4 = $(`<div id="html_df409e7b2da126904ab0de88f8540ad4" style="width: 100.0%; height: 100.0%;">Frogner Kino Frognerveien 30</div>`)[0];
+            popup_d0b9bce74356ae81e44002e8a9b21065.setContent(html_df409e7b2da126904ab0de88f8540ad4);
+        
+
+        marker_2311a96312ddeda0070f7622d24f1c5a.bindPopup(popup_d0b9bce74356ae81e44002e8a9b21065)
+        ;
+
+        
+    
+    
+            var marker_192d1d3b42c160b73cdc5a5a0596a4c5 = L.marker(
+                [59.91686087503157, 10.714871341826488],
+                {}
+            ).addTo(feature_group_92b3237d0c8a7bcf3d6a8be38361bb75);
+        
+    
+            var div_icon_8b29b30a8a9aa3abf6516ef3c9668441 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-family: courier new; color: blue\"\u003eForrest \u0026 Brown\u003c/div\u003e"});
+            marker_192d1d3b42c160b73cdc5a5a0596a4c5.setIcon(div_icon_8b29b30a8a9aa3abf6516ef3c9668441);
+        
+    
+        var popup_5784d884bd7b4fda9fcd55e0ac477248 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99043eb53ccf4dfbea7f65f18ff26caf = $(`<div id="html_99043eb53ccf4dfbea7f65f18ff26caf" style="width: 100.0%; height: 100.0%;">Forrest & Brown Niels Juels gate 31</div>`)[0];
+            popup_5784d884bd7b4fda9fcd55e0ac477248.setContent(html_99043eb53ccf4dfbea7f65f18ff26caf);
+        
+
+        marker_192d1d3b42c160b73cdc5a5a0596a4c5.bindPopup(popup_5784d884bd7b4fda9fcd55e0ac477248)
+        ;
+
+        
+    
+    
+            var marker_b3ad4f5a79f716e5f5e6f8cb0b5e9ebd = L.marker(
+                [59.91652744388927, 10.716684515174649],
+                {}
+            ).addTo(feature_group_92b3237d0c8a7bcf3d6a8be38361bb75);
+        
+    
+            var div_icon_8472b3bd53c4a4f188afe49e68c10f11 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-family: courier new; color: blue\"\u003eGalleri Tiffani Frogner\u003c/div\u003e"});
+            marker_b3ad4f5a79f716e5f5e6f8cb0b5e9ebd.setIcon(div_icon_8472b3bd53c4a4f188afe49e68c10f11);
+        
+    
+        var popup_0889be00f9299c5a8cb8f65346cd6131 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca03f38d539c399a464970944dad396c = $(`<div id="html_ca03f38d539c399a464970944dad396c" style="width: 100.0%; height: 100.0%;">Galleri Tiffani Frogner Behrens gate 2</div>`)[0];
+            popup_0889be00f9299c5a8cb8f65346cd6131.setContent(html_ca03f38d539c399a464970944dad396c);
+        
+
+        marker_b3ad4f5a79f716e5f5e6f8cb0b5e9ebd.bindPopup(popup_0889be00f9299c5a8cb8f65346cd6131)
+        ;
+
+        
+    
+    
+            var marker_cad460a277d582939099cb6b801e0a05 = L.marker(
+                [59.91851991220559, 10.705368155733478],
+                {}
+            ).addTo(feature_group_92b3237d0c8a7bcf3d6a8be38361bb75);
+        
+    
+            var div_icon_20d1e37122fb8e03f1b6d0f8ed79d243 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-family: courier new; color: blue\"\u003eEnoteca\u003c/div\u003e"});
+            marker_cad460a277d582939099cb6b801e0a05.setIcon(div_icon_20d1e37122fb8e03f1b6d0f8ed79d243);
+        
+    
+        var popup_b358b681b2beacdf52a56b54e0c007f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0924355513905614c20424fc6983461b = $(`<div id="html_0924355513905614c20424fc6983461b" style="width: 100.0%; height: 100.0%;">Enoteca Bygdøy allé 59</div>`)[0];
+            popup_b358b681b2beacdf52a56b54e0c007f1.setContent(html_0924355513905614c20424fc6983461b);
+        
+
+        marker_cad460a277d582939099cb6b801e0a05.bindPopup(popup_b358b681b2beacdf52a56b54e0c007f1)
+        ;
+
+        
+    
+</script>
