@@ -44,7 +44,7 @@ def main():
             tooltip=tooltip,
         ).add_to(m)
 
-    title = "Vestkantløpet vestkantløpet_2024"
+    title = "Vestkantløpet 2025"
     title_html = """
                  <h3 align="center" style="width:40%;"font-size:22px"><b>{}</b></h3>
                  """.format(title)
