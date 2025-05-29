@@ -46,7 +46,7 @@ def main():
 
     title = "Vestkantløpet 2025"
     title_html = """
-                 <h3 align="center" style="width:40%;"font-size:22px"><b>{}</b></h3>
+                 <h3 align="left" style="width:40%;"font-size:22px"><b>{}</b></h3>
                  """.format(title)
     m.get_root().html.add_child(folium.Element(title_html))
 
