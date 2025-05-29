@@ -23,7 +23,7 @@ pubaddress = ["Henrik Ibsens gate 90, 0255 Oslo",
               "Niels Juels gate 31, 0257 Oslo",
               "Behrens gate 2, 0257 Oslo",
               "Bygdøy allé 59, 0265 Oslo",
-              "Gabels gate 47, 0262 Oslo"
+              "Gabels gate 47, 0262 Oslomoro"
               ]
 
 sumo = "https://lh5.googleusercontent.com/p/AF1QipPa-w7S9lLUagv5fS52qoi1iwEJcaPJTLqV0X9x=w426-h240-k-no"
