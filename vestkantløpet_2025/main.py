@@ -14,11 +14,11 @@ def main():
         "lon": inputdata.longitude,
         "name": inputdata.pubname,
         "addr": inputdata.pubaddress,
-        "img": [inputdata.sumo, inputdata.fruburums, inputdata.andy, inputdata.victor, inputdata.frognerkino,
-                inputdata.forestbrown, inputdata.tiffany, inputdata.enoteca, inputdata.gabels]
+        "img": [inputdata.sumo, inputdata.box, inputdata.fruburums, inputdata.andy, inputdata.victor,
+                inputdata.frognerkino, inputdata.forestbrown, inputdata.tiffany, inputdata.enoteca, inputdata.gabels, ]
     })
 
-    m = folium.Map(location=start, width=400, height=550, zoom_start=15, min_zoom=10, max_zoom=18)
+    m = folium.Map(location=start, width=400, height=550, zoom_start=14.5, min_zoom=10, max_zoom=18)
 
     for i in range(0, len(data)):
         folium.Marker(
